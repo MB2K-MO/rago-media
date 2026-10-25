@@ -1,5 +1,14 @@
 {
   "permissions": {
-    "allow": ["Artifact"]
+    "allow": [
+      "Artifact",
+      "ArtifactData",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push -q -u origin claude/project-thread-x2ftlp)",
+      "mcp__Metricool_Social_Media_Management__getScheduledPosts",
+      "mcp__Metricool_Social_Media_Management__createScheduledPost",
+      "mcp__Metricool_Social_Media_Management__updateScheduledPost"
+    ]
   }
 }
